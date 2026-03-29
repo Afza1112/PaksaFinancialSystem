@@ -50,6 +50,16 @@ jobs:
         bandit -r app
         safety check
     
+    - name: Migration smoke test
+      run: |
+        cd backend
+        ./scripts/ci_migration_smoke_test.sh
+
+    - name: Tenant isolation regression
+      run: |
+        cd backend
+        pytest tests/integration/test_security_integration.py -k tenant_isolation_with_security
+
     - name: Run tests
       run: |
         cd backend
