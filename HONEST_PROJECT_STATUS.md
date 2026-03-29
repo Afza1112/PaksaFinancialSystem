@@ -1,4 +1,7 @@
 # 📊 HONEST PROJECT STATUS DASHBOARD
+
+> **Status governance note (2026-03-29):** Canonical current status is maintained in `docs/progress/MASTER_STATUS.md`. This document may contain historical snapshots.
+
 **Paksa Financial System - Actual Implementation Status**
 
 ## 🚨 EXECUTIVE SUMMARY - UPDATED
